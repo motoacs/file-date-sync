@@ -1,0 +1,23 @@
+{
+  "name": "file-date-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.mjs -t \"D:\\tmp\\output - コピー\" -r \"N:\\Photos\\2022\\2022-11-04 山梨\\Insta360\" --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motoacs/file-date-sync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motoacs/file-date-sync/issues"
+  },
+  "homepage": "https://github.com/motoacs/file-date-sync#readme",
+  "dependencies": {
+    "utimes": "^5.1.1"
+  }
+}
